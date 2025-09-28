@@ -40,4 +40,42 @@ footer {
   text-align: center;
 }
 ```
+/* Example customizations */
+body {
+  background-color: #f0f4f8; /* light gray-blue */
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #004080; /* deep navy */
+  color: white;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+header a:hover {
+  background-color: #0066cc; /* lighter blue on hover */
+}
+
+.logo {
+  font-size: 2rem; /* make the logo bigger */
+  margin-right: 15px;
+}
+
+article {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  border: 2px solid #ddd;
+}
+
+aside {
+  background: #fafafa;
+  padding: 15px;
+  border-left: 3px solid #004080;
+}
 
