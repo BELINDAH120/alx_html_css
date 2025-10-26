@@ -378,3 +378,83 @@ blockquote {
         width: 100%;
     }
 }
+/* ===== FOOTER ===== */
+footer {
+    background-color: #1A1A1A; /* Dark background from Figma */
+    color: #FFFFFF;
+    padding: 60px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+/* Footer Brand / Logo + Text */
+.footer-left {
+    max-width: 320px;
+    line-height: 1.5;
+}
+.footer-left img {
+    width: 140px; /* Match Figma logo size */
+    margin-bottom: 15px;
+}
+.footer-left p {
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+/* Footer Navigation Links */
+.footer-links {
+    display: flex;
+    gap: 60px;
+}
+
+.footer-column h4 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+.footer-column ul li {
+    margin: 6px 0;
+}
+.footer-column a {
+    font-size: 14px;
+    color: #FFFFFF;
+    text-decoration: none;
+    opacity: 0.75;
+    transition: opacity 0.2s;
+}
+.footer-column a:hover {
+    opacity: 1;
+}
+
+/* Bottom Copyright */
+.footer-bottom {
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 12px;
+    opacity: 0.5;
+    margin-top: 30px;
+    border-top: 1px solid rgba(255,255,255,0.08);
+}
+
+/* Responsive Adjustment */
+@media (max-width: 768px) {
+    footer {
+        flex-direction: column;
+        gap: 40px;
+    }
+    .footer-links {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .footer-left {
+        max-width: 100%;
+    }
+}
