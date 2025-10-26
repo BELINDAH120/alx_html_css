@@ -333,3 +333,48 @@ blockquote {
         grid-template-columns: 1fr;
     }
 }
+/* ================= FAQ SECTION ================= */
+.faq-section {
+    background-color: #ffffff;
+    padding: 80px 20px;
+    color: #071629;
+}
+
+.faq-title {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 70px;
+}
+
+/* 2×2 Grid */
+.faq-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px 100px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.faq-item h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.faq-item p {
+    color: #9DA5B3; /* Light gray text */
+    line-height: 1.5;
+    font-size: 14px;
+    width: 80%;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+    .faq-container {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .faq-item p {
+        width: 100%;
+    }
+}
