@@ -102,3 +102,52 @@ body {
 .btn.primary:hover {
     background: #b47aff;
 }
+/* -------------- GLOBAL REUSABLE TYPOGRAPHY -------------- */
+h1, h2, h3, h4 {
+    font-weight: 900;
+}
+
+p, blockquote {
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+/* -------------- QUOTE SECTION (PINK/PURPLE BAND) -------------- */
+.quote-section {
+    background-color: #C271FF; /* Figma pink/purple brand color */
+    padding: 80px 20px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.quote-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.quote-avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 3px solid white;
+}
+
+blockquote {
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 20px;
+    padding: 0 10px;
+}
+
+.quote-section h3 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.quote-role {
+    font-size: 14px;
+    opacity: 0.9;
+}
+
